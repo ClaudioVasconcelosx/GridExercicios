@@ -1,0 +1,27 @@
+.container {
+	max-width: 1000px;
+	height: 98vh;
+	display: block;
+	margin: 0 auto;
+}
+
+.jardim {
+	height: 100%;
+	border-radius: 20px;
+	display: grid;
+	grid-template-columns: 20% 20% 20% 20% 20%;
+	grid-template-rows: 20% 20% 20% 20% 20%;
+	background-color: #836b33;
+	background-image: url("../assets/ground.jpg");
+	border: 10px solid #000;
+}
+
+.cenouraIMG {
+	display: block;
+	margin: 0 auto;
+	width: 170px;
+}
+.cenoura {
+	grid-column-start: -3;
+   background-image: url(../assets/veneno.jpg);
+}
